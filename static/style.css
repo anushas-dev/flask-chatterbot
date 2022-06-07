@@ -1,5 +1,5 @@
 body {
-    font-family: Garamond;
+    font-family: monospace;
 }
 
 h1 {
@@ -15,6 +15,11 @@ h3 {
     font-size: 20px;
     margin-top: 3px;
     text-align: center;
+}
+
+.botImg {
+    width: 10%; 
+    height: 10%;
 }
 
 #chatbox {
@@ -34,15 +39,16 @@ h3 {
 #textInput {
     width: 87%;
     border: none;
-    border-bottom: 3px solid #009688;
+    border-bottom: 3px solid #1c2aa3;
     font-family: monospace;
     font-size: 17px;
 }
 
 #buttonInput {
-    padding: 3px;
     font-family: monospace;
     font-size: 17px;
+    background-color: #1c2aa3;
+    color: white;
 }
 
 .userText {
@@ -54,7 +60,7 @@ h3 {
 }
 
 .userText span {
-    background-color: #009688;
+    background-color: #1c2aa3;
     padding: 10px;
     border-radius: 2px;
 }
@@ -68,7 +74,7 @@ h3 {
 }
 
 .botText span {
-    background-color: #EF5350;
+    background-color: #1c2aa3;
     padding: 10px;
     border-radius: 2px;
 }

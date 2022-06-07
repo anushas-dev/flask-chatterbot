@@ -7,6 +7,10 @@
  2. Run *app.py* with `python app.py`.
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
 
+### Note for Python 3.10 Users, you might see the following errors while setup:
+ 1. [AttributeError: module 'time' has no attribute 'clock'](https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8)
+ 2. [attributeerror module 'collections' has no attribute 'hashable'](https://docs.python.org/3/whatsnew/3.10.html#removed). Quick fix is to import Hashable from typing for Python\lib\site-packages\yaml\constructor.py and modifying the collections.hashable to just Hashable, this is not advisable if you don't know the side effects.
+
 ## How do I deploy this to a web server?
 If you do not have a dedicated server, I highly recommend using [PythonAnywhere](https://www.pythonanywhere.com/), [AWS](https://aws.amazon.com/getting-started/projects/deploy-python-application/) or [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) to host your application.
 

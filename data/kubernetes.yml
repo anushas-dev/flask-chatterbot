@@ -1,0 +1,15 @@
+categories:
+- kubernetes
+conversations:
+- - What is kubernetes?
+  - Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+- - Where do I find kubernetes documentation?
+  - Please visit kubernetes <a href="https://kubernetes.io/docs/home/">documentation</a>
+- - Overview of kubernetes
+  - Please find the kubernetes overview <a href="https://kubernetes.io/docs/concepts/overview/">here</a>
+- - Where can I find some tutorials?
+  - For some basic reading, I'd recommend offical <a href="https://kubernetes.io/docs/tutorials/"> documentation</a>. For hands on learning, head on to <a href="https://kodekloud.com/learning-path-kubernetes/">KodeKloud</a>
+- - How to understand kubernetes objects?
+  - I think reading <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/">this</a> might help!
+- - How to install kubernetes?
+  - Please read the installation instructions <a href="https://kubernetes.io/docs/tasks/tools/">here</a>
